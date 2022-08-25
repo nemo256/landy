@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="Landing page template using NextJS and TailwindCSS!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-xl md:text-5xl font-bold underline">
+      <h1 className="text-center text-xl md:text-5xl font-bold underline">
         NextJS + TailwindCSS!
       </h1>
     </>
