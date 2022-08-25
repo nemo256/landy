@@ -1,9 +1,9 @@
 - [x] Add necessary dependancies
+- [x] Add TalwindCSS support
 - [ ] Add project layout
 - [ ] Deploy on vercel
-- [ ] Add TalwindCSS support
 - [ ] Add layout, navbar and footer
-- [x] Add new home layout
+- [ ] Add new home layout
 - [ ] Add a login page
 - [ ] Set up small components for reusability
 - [ ] Add routes (already done by nextjs - usually)
