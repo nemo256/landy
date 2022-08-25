@@ -9,9 +9,11 @@ export default function Home() {
         <meta name="description" content="Landing page template using NextJS and TailwindCSS!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-center text-xl md:text-5xl font-bold underline">
-        NextJS + TailwindCSS!
-      </h1>
+      <div className="flex flex-col h-screen justify-between">
+        <header className="sm:text-l md:text-xl bg-primary text-secondary text-center p-4 font-bold">Navbar</header>
+        <main className="sm:text-l md:text-xl bg-primary text-secondary text-center p-32 font-bold align-middle">Main</main>
+        <footer className="sm:text-l md:text-xl bg-secondary text-primary text-center p-4 font-bold">Footer</footer>
+      </div>
     </>
   )
 }
