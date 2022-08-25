@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div className="flex flex-col h-screen justify-between">
         <header className="sm:text-l md:text-xl bg-primary text-secondary text-center p-4 font-bold">Navbar</header>
-        <main className="sm:text-l md:text-xl bg-primary text-secondary text-center p-32 font-bold align-middle">Main</main>
+        <main className="flex-grow sm:text-l md:text-xl bg-primary text-secondary text-center p-16 font-bold">Main</main>
         <footer className="sm:text-l md:text-xl bg-secondary text-primary text-center p-4 font-bold">Footer</footer>
       </div>
     </>
