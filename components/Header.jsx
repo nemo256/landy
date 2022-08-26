@@ -62,7 +62,7 @@ const Header = () => {
           <AiOutlineMenu onClick={() => { setOpen(!open) }} className={!open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
           <AiOutlineClose onClick={() => { setOpen(!open) }} className={open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
         </div>
-        <div className="hidden xs:flex bg-primary mt-16 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden xs:flex bg-primary mt-12 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
           <ul>
             {open && sections.map((section) => (
               <Link key={section.name} href={section.link}>
