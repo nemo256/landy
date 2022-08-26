@@ -3,9 +3,13 @@
 - [x] Add project layout
 - [x] Deploy on vercel
 - [x] Add Navbar
+- [ ] Add Hero
+- [ ] Add Services
+- [ ] Add Projects
+- [ ] Add Testimonials
+- [ ] Add Contact
 - [ ] Add Footer
 - [ ] Add new home layout
-- [ ] Add a login page
 - [ ] Set up small components for reusability
-- [ ] Add routes (already done by nextjs - usually)
+- [ ] Add routes (already done by nextjs)
 - [ ] Update everything for mobile (responsive approach)
