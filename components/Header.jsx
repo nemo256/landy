@@ -18,12 +18,8 @@ const sections = [
     'link': '#services',
   },
   {
-    'name': 'Projects',
-    'link': '#projects',
-  },
-  {
-    'name': 'Testimonials',
-    'link': '#testimonials',
+    'name': 'About',
+    'link': '#about',
   },
   {
     'name': 'Contact',
@@ -45,9 +41,9 @@ const Header = () => {
         </Link>
         <ul className="hidden md:flex flex-row items-center">
           {sections.map((section) => (
-            <Link key={section.name} href={section.link}>
+            <a key={section.name} href={section.link}>
               <li>{section.name}</li>
-            </Link>
+            </a>
           ))}
         </ul>
         <div className="hidden sm:hidden md:flex flex-row">

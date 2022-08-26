@@ -1,6 +1,8 @@
 const Services = () => {
   return (
-    <h1 className="text-center text-xl font-bold">Services</h1>
+    <section id="services" name="#services" className="center bg-primary text-secondary h-screen">
+      Services
+    </section>
   )
 }
 
