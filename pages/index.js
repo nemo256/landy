@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>NextJS | TailwindCSS</title>
+        <title>Landing Page</title>
         <meta name="description" content="Landing page template using NextJS and TailwindCSS!" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <div className="flex flex-col h-screen justify-between">
         <Header />

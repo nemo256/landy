@@ -1,8 +1,8 @@
 - [x] Add necessary dependancies
 - [x] Add TalwindCSS support
-- [ ] Add project layout
+- [x] Add project layout
 - [x] Deploy on vercel
-- [ ] Add Navbar
+- [x] Add Navbar
 - [ ] Add Footer
 - [ ] Add new home layout
 - [ ] Add a login page
