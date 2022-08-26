@@ -50,7 +50,7 @@ const Header = () => {
             </Link>
           ))}
         </ul>
-        <div className="hidden sm:flex flex-row">
+        <div className="hidden sm:hidden md:flex flex-row">
           <a href="tel:+213556842158">
             <CallButton>
               <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
@@ -58,7 +58,7 @@ const Header = () => {
             </CallButton>
           </a>
         </div>
-        <div className="hidden xs:flex xs:text-secondary xs:cursor-pointer">
+        <div className="flex sm:flex md:hidden text-secondary cursor-pointer">
           <AiOutlineMenu onClick={() => { setOpen(!open) }} className={!open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
           <AiOutlineClose onClick={() => { setOpen(!open) }} className={open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
         </div>
