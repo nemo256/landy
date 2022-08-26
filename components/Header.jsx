@@ -70,7 +70,7 @@ const Header = () => {
               </Link>
             ))}
             <a href="tel:+213556842158" className={open ? "hidden xs:flex mt-4" : "hidden xs:hidden"}>
-              <CallButton>
+              <CallButton className="p-2">
                 <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
                 {number}
               </CallButton>
