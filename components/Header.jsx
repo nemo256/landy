@@ -3,6 +3,7 @@ import Link from 'next/link'
 // custom imports
 import Button from './Button'
 
+const number = '0556842158'
 const sections = [ 
   {
     'name': 'Home',
@@ -44,7 +45,9 @@ const Header = () => {
           ))}
         </ul>
         <div className="hidden md:flex flex-row">
-          <Button />
+          <Button>
+            {number}
+          </Button>
         </div>
       </div>
     </header>
