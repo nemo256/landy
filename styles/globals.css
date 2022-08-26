@@ -4,6 +4,6 @@
 
 @layer base {
   li {
-    @apply px-2 text-base text-white font-medium cursor-pointer hover:text-secondary
+    @apply px-2 text-base text-white sm:font-bold md:font-medium cursor-pointer hover:text-secondary
   }
 }
