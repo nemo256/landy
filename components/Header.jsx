@@ -62,7 +62,7 @@ const Header = () => {
           <ul>
             {open && sections.map((section) => (
               <Link key={section.name} href={section.link}>
-                <li className="py-4 text-lg">{section.name}</li>
+                <li onClick={() => { setOpen(!open) }} className="py-4 text-lg">{section.name}</li>
               </Link>
             ))}
             <a href="tel:+213556842158" className={open ? "hidden xs:flex mt-4 pb-8" : "hidden xs:hidden"}>
