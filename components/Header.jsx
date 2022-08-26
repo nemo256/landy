@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { BsFillTelephoneFill } from 'react-icons/bs'
 
 // custom imports
 import Button from './Button'
@@ -46,6 +47,7 @@ const Header = () => {
         </ul>
         <div className="hidden md:flex flex-row">
           <Button>
+            <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
             {number}
           </Button>
         </div>
