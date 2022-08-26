@@ -50,7 +50,7 @@ const Header = () => {
             </Link>
           ))}
         </ul>
-        <div className="hidden md:flex flex-row">
+        <div className="hidden sm:flex flex-row">
           <a href="tel:+213556842158">
             <CallButton>
               <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
@@ -58,17 +58,23 @@ const Header = () => {
             </CallButton>
           </a>
         </div>
-        <div className="hidden sm:flex text-secondary cursor-pointer">
-          <AiOutlineMenu onClick={() => { setOpen(!open) }} className={open ? 'w-8 h-8' : 'hidden'}/>
-          <AiOutlineClose onClick={() => { setOpen(!open) }} className={!open ? 'w-8 h-8' : 'hidden'}/>
+        <div className="hidden xs:flex xs:text-secondary xs:cursor-pointer">
+          <AiOutlineMenu onClick={() => { setOpen(!open) }} className={!open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
+          <AiOutlineClose onClick={() => { setOpen(!open) }} className={open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
         </div>
-        <div className="hidden sm:flex bg-primary mt-16 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden xs:flex bg-primary mt-16 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
           <ul>
             {open && sections.map((section) => (
               <Link key={section.name} href={section.link}>
-                <li className="py-4">{section.name}</li>
+                <li className="py-4 text-lg">{section.name}</li>
               </Link>
             ))}
+            <a href="tel:+213556842158" className={open ? "hidden xs:flex mt-4" : "hidden xs:hidden"}>
+              <CallButton>
+                <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
+                {number}
+              </CallButton>
+            </a>
           </ul>
         </div>
       </div>
