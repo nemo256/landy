@@ -14,7 +14,7 @@ const Home = () => {
         <meta name="description" content="Landing page template using NextJS and TailwindCSS!" />
         <link rel="icon" href="/logo.png" />
       </Head>
-      <div className="mx-auto flex flex-col h-screen justify-between scroll-smooth">
+      <div className="mx-auto flex flex-col h-screen justify-between scroll-smooth snap-y snap-mandatory">
         <Header />
         <Main />
         <Footer />
