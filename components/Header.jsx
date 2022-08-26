@@ -58,11 +58,11 @@ const Header = () => {
             </CallButton>
           </a>
         </div>
-        <div className="flex text-secondary cursor-pointer">
+        <div className="hidden sm:flex text-secondary cursor-pointer">
           <AiOutlineMenu onClick={() => { setOpen(!open) }} className={open ? 'w-8 h-8' : 'hidden'}/>
           <AiOutlineClose onClick={() => { setOpen(!open) }} className={!open ? 'w-8 h-8' : 'hidden'}/>
         </div>
-        <div className="bg-primary mt-16 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
+        <div className="hidden sm:flex bg-primary mt-16 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
           <ul>
             {open && sections.map((section) => (
               <Link key={section.name} href={section.link}>
