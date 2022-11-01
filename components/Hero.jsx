@@ -1,6 +1,6 @@
 import { 
   BsFillTelephoneFill,
-  BsFillPlayFill
+  BsPlayCircleFill
 } from 'react-icons/bs'
 
 // custom imports
@@ -20,22 +20,22 @@ const Hero = () => {
           <p className="mt-8 text-xs text-[#B0B0B0]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
-          <div className="mt-8 flex mx-auto font-bold justify-between space-x-4 px-16 whitespace-nowrap">
+          <div className="mt-8 flex justify-center space-x-4 mx-auto font-bold whitespace-nowrap">
             <a href="tel:+213556842158" className="text-center">
-              <CallButton>
+              <CallButton className="px-4 py-2 hover:bg-secondary">
                 <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
                 Call Us
               </CallButton>
             </a>
             <a href="tel:+213556842158" className="text-center">
-              <CallButton>
+              <CallButton className="px-4 py-2 hover:bg-secondary">
+                <BsPlayCircleFill className="mr-2 -ml-1 w-4 h-4"/>
                 See More
               </CallButton>
             </a>
           </div>
         </div>
-        <div className="text-center text-white w-full">
-          Hero | Second Column
+        <div className="bg-background bg-cover rounded-3xl text-center text-white w-full h-64">
         </div>
       </div>
     </section>

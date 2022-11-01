@@ -11,5 +11,5 @@
 - [x] Add a new home layout
 - [x] Set up small components for reusability
 - [x] Update everything for mobile (responsive approach)
-- [ ] Add Hero templates
-- [ ] Add an svg splash background image
+- [x] Add Hero template
+- [x] Add background image
