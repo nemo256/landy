@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    background: black;
+  }
+
   li {
     @apply px-2 text-base text-white sm:font-bold md:font-medium cursor-pointer hover:text-secondary
   }

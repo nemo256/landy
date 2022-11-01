@@ -8,7 +8,8 @@
 - [x] Add About
 - [x] Add Contact
 - [x] Add Footer
-- [x] Add new home layout
+- [x] Add a new home layout
 - [x] Set up small components for reusability
 - [x] Update everything for mobile (responsive approach)
-- [ ] Add hero templates
+- [ ] Add Hero templates
+- [ ] Add an svg splash background image
