@@ -17,7 +17,7 @@ const Hero = () => {
           <p className="font-bold text-center text-4xl text-secondary">
             Made easy!
           </p>
-          <p className="mt-8 text-xs text-[#B0B0B0]">
+          <p className="mt-8 text-xs xs:text-center text-[#B0B0B0]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
           </p>
           <div className="mt-8 flex justify-center space-x-4 mx-auto font-bold whitespace-nowrap">
