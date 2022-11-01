@@ -11,3 +11,4 @@
 - [x] Add new home layout
 - [x] Set up small components for reusability
 - [x] Update everything for mobile (responsive approach)
+- [ ] Add hero templates
