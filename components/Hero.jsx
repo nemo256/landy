@@ -35,7 +35,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="bg-book bg-cover rounded-3xl sm:w-full h-56 sm:h-auto">
+        <div className="bg-book bg-cover bg-no-repeat rounded-3xl sm:w-full h-56 sm:h-auto">
         </div>
       </div>
     </section>
