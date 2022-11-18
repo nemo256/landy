@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'book': "url('/book.jpg')"
+        'book': "url('/book.jpg')",
+        'wave1': "url('/wave1.svg')",
+        'wave2': "url('/wave2.svg')",
       },
       colors: {
         primary: 'black',

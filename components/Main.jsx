@@ -6,7 +6,7 @@ import Contact from './Contact'
 
 const Main = () => {
   return (
-    <main className="mx-4 flex-grow sm:text-l md:text-xl bg-primary text-secondary">
+    <main className="flex-grow sm:text-l md:text-xl bg-primary text-secondary">
       <Hero />
       <Services />
       <About />

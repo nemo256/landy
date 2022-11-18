@@ -55,17 +55,17 @@ const Header = () => {
           </a>
         </div>
         <div className="flex sm:flex md:hidden text-secondary cursor-pointer">
-          <AiOutlineMenu onClick={() => { setOpen(!open) }} className={!open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
-          <AiOutlineClose onClick={() => { setOpen(!open) }} className={open ? 'hidden xs:flex w-8 h-8' : 'hidden xs:hidden'}/>
+          <AiOutlineMenu onClick={() => { setOpen(!open) }} className={!open ? 'flex sm:hidden w-8 h-8' : 'hidden'}/>
+          <AiOutlineClose onClick={() => { setOpen(!open) }} className={open ? 'flex sm:hidden w-8 h-8' : 'hidden'}/>
         </div>
-        <div className="hidden w-full xs:flex bg-primary mt-12 flex flex-col items-center absolute left-1/2 transform -translate-x-1/2">
+        <div className="flex w-full sm:hidden bg-primary mt-12 flex-col items-center absolute left-1/2 transform -translate-x-1/2">
           <ul>
             {open && sections.map((section) => (
               <Link key={section.name} href={section.link}>
                 <li onClick={() => { setOpen(!open) }} className="py-4 text-lg">{section.name}</li>
               </Link>
             ))}
-            <a href="tel:+213556842158" className={open ? "hidden xs:flex mt-4 pb-8" : "hidden xs:hidden"}>
+            <a href="tel:+213556842158" className={open ? "hidden sm:flex mt-4 pb-8" : "hidden"}>
               <CallButton className="p-2 text-xl font-extrabold">
                 <BsFillTelephoneFill className="mr-2 -ml-1 w-4 h-4"/>
                 {number}
