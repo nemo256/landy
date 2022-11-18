@@ -18,7 +18,7 @@ const Hero = () => {
             Made easy!
           </p>
           <p className="mt-8 text-xs text-center text-[#B0B0B0]">
-            Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.
+            Design can be art. Design can be aesthetics. Design is so simple, thats why it is so complicated.
           </p>
           <div className="mt-8 flex justify-center space-x-4 mx-auto font-bold whitespace-nowrap">
             <a href="tel:+213556842158" className="text-center">
