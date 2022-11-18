@@ -9,7 +9,7 @@ import CallButton from './CallButton'
 const Hero = () => {
   return (
     <section className="center bg-black h-screen snap-center">
-      <div className="mt-20 flex flex-col sm:flex-row sm:space-x-16 md:space-x-16 xs:space-y-16">
+      <div className="mt-20 flex flex-col sm:flex-row sm:space-x-16 space-y-16">
         <div className="w-full p-2">
           <p className="font-bold cursor-pointer text-center text-4xl text-white">
             UI, UX Design
@@ -35,7 +35,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="bg-background bg-cover rounded-3xl sm:w-full h-48">
+        <div className="bg-book bg-cover rounded-3xl sm:w-full h-48">
         </div>
       </div>
     </section>
