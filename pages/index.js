@@ -12,7 +12,7 @@ const Home = () => {
       <Head>
         <title>Landy</title>
         <meta name="description" content="Landy is a landing page template built using NextJS and TalwindCSS." />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="max-w-screen-xl mx-auto flex flex-col h-screen justify-between scroll-smooth snap-y snap-mandatory">
         <Header />
