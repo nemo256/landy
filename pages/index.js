@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Landing Page</title>
-        <meta name="description" content="Landing page template using NextJS and TailwindCSS!" />
+        <title>Landy</title>
+        <meta name="description" content="Landy is a landing page template built using NextJS and TalwindCSS." />
         <link rel="icon" href="/logo.png" />
       </Head>
       <div className="max-w-screen-xl mx-auto flex flex-col h-screen justify-between scroll-smooth snap-y snap-mandatory">
