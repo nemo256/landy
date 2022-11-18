@@ -1,2 +1,2 @@
-# Landing Page
-Landing page template using NextJS and Tailwind.
+# Landy
+Landy is a landing page template built using NextJS and TalwindCSS.
