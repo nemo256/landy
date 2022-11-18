@@ -15,9 +15,6 @@ module.exports = {
         accent: 'lightgreen',
         white: '#D7D7D7'
       },
-      screens: {
-        'xs': '0px',
-      },
     },
   },
   plugins: [],
