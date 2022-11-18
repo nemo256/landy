@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'book': "url('/book.jpg')",
+        'blob': "url('/blob.svg')",
         'wave1': "url('/wave1.svg')",
         'wave2': "url('/wave2.svg')",
       },
