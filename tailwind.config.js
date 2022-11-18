@@ -9,7 +9,10 @@ module.exports = {
       backgroundImage: {
         'book': "url('/book.jpg')",
         'blob': "url('/blob.svg')",
+        'blob-about': "url('/blob-about.svg')",
+        'blob-about-mobile': "url('/blob-about-mobile.svg')",
         'wave1': "url('/wave1.svg')",
+        'wave1-mobile': "url('/wave1-mobile.svg')",
         'wave2': "url('/wave2.svg')",
       },
       colors: {

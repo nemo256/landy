@@ -8,7 +8,7 @@ import CallButton from './CallButton'
 
 const Hero = () => {
   return (
-    <section className="px-4 mb-12 bg-black center bg-black h-screen snap-center">
+    <section className="px-4 mb-12 sm:-mb-16 sm:mt-4 center bg-black h-screen snap-center">
       <div className="pt-20 flex flex-col sm:flex-row sm:space-x-16 space-y-16 sm:space-y-0">
         <div className="w-full px-2">
           <p className="font-bold cursor-pointer text-center text-4xl text-white">
@@ -18,7 +18,7 @@ const Hero = () => {
             Made easy!
           </p>
           <p className="mt-8 text-xs text-center text-[#B0B0B0]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.
           </p>
           <div className="mt-8 flex justify-center space-x-4 mx-auto font-bold whitespace-nowrap">
             <a href="tel:+213556842158" className="text-center">
