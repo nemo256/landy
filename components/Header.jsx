@@ -35,8 +35,8 @@ const Header = () => {
       <div className="flex flex-row justify-between">
         <Link href="/">
           <div className="flex flex-row cursor-pointer items-center">
-            <p className="px-1 text-xl text-accent font-black">Landing</p>
-            <p className="px-1 text-xl text-secondary font-black">Page</p>
+            <p className="pl-1 text-xl text-accent font-black">Lan</p>
+            <p className="pr-16 text-xl text-secondary font-black">Dy</p>
           </div>
         </Link>
         <ul className="hidden md:flex flex-row items-center">
