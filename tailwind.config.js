@@ -8,12 +8,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'book': "url('/book.jpg')",
-        'blob': "url('/blob.svg')",
-        'blob-about': "url('/blob-about.svg')",
-        'blob-about-mobile': "url('/blob-about-mobile.svg')",
-        'wave1': "url('/wave1.svg')",
-        'wave1-mobile': "url('/wave1-mobile.svg')",
-        'wave2': "url('/wave2.svg')",
+        'wave-1-bottom': "url('/wave-1-bottom.svg')",
+        'wave-1-top': "url('/wave-1-top.svg')",
+        'wave-1-bottom-mobile': "url('/wave-1-bottom-mobile.svg')",
+        'wave-1-top-mobile': "url('/wave-1-top-mobile.svg')",
       },
       colors: {
         primary: 'black',

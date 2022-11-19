@@ -13,3 +13,4 @@
 - [x] Update everything for mobile (responsive approach)
 - [x] Add Hero template
 - [x] Add background image
+- [x] Add some wave layouts (beautiful curves for the template)
