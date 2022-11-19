@@ -8,6 +8,6 @@
   }
 
   li {
-    @apply px-2 text-base text-white sm:font-bold md:font-medium cursor-pointer hover:text-secondary
+    @apply px-2 text-base text-white sm:font-bold md:font-medium cursor-pointer hover:text-secondary hover:scale-110 hover:transition hover:ease-out duration-300
   }
 }
