@@ -12,6 +12,10 @@ module.exports = {
         'wave-1-top': "url('/wave-1-top.svg')",
         'wave-1-bottom-mobile': "url('/wave-1-bottom-mobile.svg')",
         'wave-1-top-mobile': "url('/wave-1-top-mobile.svg')",
+        'wave-2-bottom': "url('/wave-2-bottom.svg')",
+        'wave-2-top': "url('/wave-2-top.svg')",
+        'wave-2-bottom-mobile': "url('/wave-2-bottom-mobile.svg')",
+        'wave-2-top-mobile': "url('/wave-2-top-mobile.svg')",
       },
       colors: {
         primary: 'black',
