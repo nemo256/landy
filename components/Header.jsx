@@ -14,8 +14,8 @@ const sections = [
     'link': '/#',
   },
   {
-    'name': 'Services',
-    'link': '#services',
+    'name': 'Features',
+    'link': '#features',
   },
   {
     'name': 'About',

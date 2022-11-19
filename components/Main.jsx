@@ -1,6 +1,6 @@
 // custom imports
 import Hero from './Hero'
-import Services from './Services'
+import Features from './Features'
 import About from './About.jsx'
 import Contact from './Contact'
 
@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <main className="flex-grow sm:text-l md:text-xl bg-primary text-secondary">
       <Hero />
-      <Services />
+      <Features />
       <About />
       <Contact />
     </main>
