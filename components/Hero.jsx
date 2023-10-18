@@ -8,7 +8,7 @@ import CallButton from './CallButton'
 
 const Hero = () => {
   return (
-    <section className="px-4 sm:-mb-16 bg-wave-1-bottom-mobile sm:bg-wave-1-bottom bg-cover bg-no-repeat sm:mt-4 center h-screen snap-center">
+    <section className="px-4 sm:-mb-16 sm:mt-4 center h-screen snap-center">
       <div className="pt-24 pb-8 px-6 flex flex-col sm:flex-row sm:space-x-16 space-y-16 sm:space-y-0">
         <div className="w-full px-2">
           <p className="font-bold cursor-pointer text-center text-4xl text-white">
